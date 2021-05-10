@@ -1,0 +1,17 @@
+﻿
+.ulList{
+    list-style-type: none;
+}
+
+.ulList > li{
+    transition: all 0.35s ease-in-out 0s;
+}
+
+.ulList > li.active{
+    color: deeppink;
+    font-weight: bold;
+}
+
+.ulList li {
+    cursor: pointer;
+}
